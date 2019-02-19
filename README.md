@@ -8,8 +8,8 @@ requirements.
 
 ## Prerequisites
 
--Archiware P5
--Python 2.7 or newer
+  - Archiware P5
+  - Python 2.7 or newer
 
 ## Usage
 
@@ -32,4 +32,3 @@ usage: p5_project_archiver.py [-h] [-n PATH] -u P5_USER -p P5_PASS -a P5_IP -s
 |`-t`|`--settle-time INT`|Time (in days) that a file in project has to be untouched to trigger an archive of the project|
 ||`--dry-run`|Dry run all folders, but do not actually archive|
 ||`--log-location LOGLOC`|Change log location. Default is /var/log/p5_project_archiver.log|
-```
