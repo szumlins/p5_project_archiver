@@ -20,15 +20,16 @@ usage: p5_project_archiver.py [-h] [-n PATH] -u P5_USER -p P5_PASS -a P5_IP -s
 ```
 
 ### Options overview
-|short flag|long flag|description|
-|`-h`|`--help`|show this help message and exit|
-|`-n`|`--nsdchat PATH`|Path to P5 directory. If left unset, /usr/local/aw will be used|
-|`-u`|`--username P5_USER`|Username of authorized P5 server user|
-|`-p`|`--password P5_PASS`|Password of authorized P5 server user|
-|`-a`|`--address P5_IP`|IP or DNS name of P5 server|
-|`-s`|`--source-directory PATH`|Root of projects directory|
-|`-r`|`--port INT`|Port the P5 server is running on. If left unset, 8000 will be used.|
-|`-l`|`--plan INT`|Which P5 Archive Plan to be used.|
-|`-t`|`--settle-time INT`|Time (in days) that a file in project has to be untouched to trigger an archive of the project|
-||`--dry-run`|Dry run all folders, but do not actually archive|
-||`--log-location LOGLOC`|Change log location. Default is /var/log/p5_project_archiver.log|
+| short flag | long flag | description |
+| ------ | ------ | ------ |
+| `-h` | `--help` | show this help message and exit |
+| `-n` | `--nsdchat PATH` | Path to P5 directory. If left unset, /usr/local/aw will be used |
+| `-u` | `--username P5_USER` | Username of authorized P5 server user |
+| `-p` | `--password P5_PASS` | Password of authorized P5 server user |
+| `-a` | `--address P5_IP` | IP or DNS name of P5 server |
+| `-s` | `--source-directory PATH` | Root of projects directory |
+| `-r` | `--port INT` | Port the P5 server is running on. If left unset, 8000 will be used. |
+| `-l` | `--plan INT` | Which P5 Archive Plan to be used. |
+| `-t` | `--settle-time INT` | Time (in days) that a file in project has to be untouched to trigger an archive of the project |
+| | `--dry-run` | Dry run all folders, but do not actually archive |
+| | `--log-location LOGLOC` | Change log location. Default is /var/log/p5_project_archiver.log |
